@@ -1,23 +1,30 @@
 ---
 layout: default
+title: Josh Holland
 ---
 
-<div class="home">
+<div class="container">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-header">Josh Holland</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <p class="lead">
+    I'm a former student of Mathematics at Keble College, Oxford, and
+    currently working for <a href="http://siriusopensource.com/">Sirius
+    Corporation</a> in Surrey.
+  </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <div class="row">
+    <div class="col-md-5">
+      <p>
+        In the day, I write <a href="http://puppetlabs.com/">Puppet</a> code
+        to deploy software such as <a href="http://icinga.org">Icinga</a>
+        and <a href="http://drupal.org">Drupal</a>, using <a href="http://git-scm">
+        git</a> for version control. At evenings and weekends, I try to improve my
+        <a href="http://en.lichess.org/@/jshholland">chess skills</a>, pretend I
+        know what I am doing with a camera (with both terrestrial and celestial
+        subjects) and stress myself out playing
+        <a href="http://www.awesomenauts.com/">Awesomenauts</a>.
+      </p>
+    </div>
+  </div>
 </div>
