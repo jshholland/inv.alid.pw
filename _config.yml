@@ -4,6 +4,10 @@ email: jrh@joshh.co.uk
 description: personal site of Josh Holland
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://inv.alid.pw" # the base hostname & protocol for your site
+exclude:
+  - node_modules
+  - Gruntfile.js
+  - package.json
 
 # Build settings
 markdown: kramdown
