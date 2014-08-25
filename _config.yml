@@ -2,8 +2,8 @@
 title: inv.alid.pw
 email: jrh@joshh.co.uk
 description: personal site of Josh Holland
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://inv.alid.pw" # the base hostname & protocol for your site
+baseurl: "/"
+url: "http://inv.alid.pw"
 exclude:
   - node_modules
   - Gruntfile.js

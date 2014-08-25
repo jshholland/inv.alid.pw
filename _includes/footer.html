@@ -1,7 +1,10 @@
 <footer>
-<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
     <p class="navbar-text">© Copyright 2014 Josh Holland</p>
-    <p class="navbar-text navbar-right">All opinions are my own</p>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="{{ "colophon" | prepend: site.baseurl }}">Colophon</a></li>
+      <li class="navbar-text">All opinions are my own</li>
+    </ul>
   </div>
 </footer>

@@ -1,7 +1,7 @@
 body {
   font-family: 'Quando', serif;
   background-color: #ddd;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 #links {
@@ -10,4 +10,9 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   list-style-type: none;
+}
+
+.page-content {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
