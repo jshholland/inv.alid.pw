@@ -3,3 +3,11 @@ body {
   background-color: #ddd;
   padding-bottom: 100px;
 }
+
+#links {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
