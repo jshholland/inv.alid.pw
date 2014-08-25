@@ -12,6 +12,10 @@ body {
   list-style-type: none;
 }
 
+#links > li {
+  padding: 0 0.5em;
+}
+
 .page-content {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
