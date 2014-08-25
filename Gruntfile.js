@@ -26,7 +26,7 @@ module.exports = function(grunt) {
     autoprefixer: {
       multiple_files: {
         expand: true,
-        src: 'css/*.css',
+        src: ['css/*.css', '!css/*.min.css', '!css/*.prf.css'],
         ext: '.prf.css'
       }
     },
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
       build: {
         files: [{
           expand: true,
-          src: ['js/**/*.js'],
+          src: ['js/**/*.js', '!js/**/*.min.js],
           ext: '.min.js'
         }]
       }
