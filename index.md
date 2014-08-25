@@ -19,11 +19,10 @@ Corporation] in Surrey.
 <div class="col-md-5" markdown="1">
 
 In the day, I spend most of my time writing [Puppet] code to deploy
-software such as [Icinga] and [Drupal], using [git] for version
-control. At evenings and weekends, I try to improve my [chess] skills,
-pretend I know what I am doing with a camera (with both terrestrial and
-celestial subjects) and try to teach myself more languages (both human
-and computer) than I really have time for.
+software such as [Icinga] and [Drupal]. At evenings and weekends, I try to
+improve my [chess] skills, pretend I know what I am doing with a camera
+(with both terrestrial and celestial subjects) and try to teach myself
+more languages (both human and computer) than I really have time for.
 
 I can usually be found on IRC as `dutchie` on [Freenode] and elsewhere,
 and can be reached by email at <josh@inv.alid.pw>.
@@ -49,7 +48,6 @@ Find me elsewhere on the web:
 [Sirius Corporation]: http://www.siriusopensource.com/
 [Puppet]: http://puppetlabs.com/
 [Icinga]: https://www.icinga.org/
-[git]: http://git-scm.com/
 [Drupal]: https://www.drupal.org/
 [chess]: http://en.lichess.org/@/jshholland
 [Facebook]: https://www.facebook.com/jshholland
