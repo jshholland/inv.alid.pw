@@ -24,16 +24,18 @@ module.exports = function(grunt) {
     },
     
     autoprefixer: {
-      single_file: {
-        src: 'css/main.css',
-        dest: 'css/main.prf.css'
+      multiple_files: {
+        expand: true,
+        src: 'css/*.css',
+        ext: '.prf.css'
       }
     },
     
     cssmin: {
       minify: {
-        src: 'css/main.prf.css',
-        dest: 'css/main.min.css'
+        expand: true,
+        src: 'css/*.prf.css',
+        ext: '.min.css'
       }
     },
     
