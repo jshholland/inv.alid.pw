@@ -22,7 +22,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    
+
     autoprefixer: {
       multiple_files: {
         expand: true,
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         ext: '.prf.css'
       }
     },
-    
+
     cssmin: {
       minify: {
         expand: true,
@@ -38,7 +38,17 @@ module.exports = function(grunt) {
         ext: '.min.css'
       }
     },
-    
+
+    uglify: {
+      build: {
+        files: [{
+          expand: true,
+          src: ['js/**/*.js'],
+          ext: '.min.js'
+        }]
+      }
+    },
+
     watch: {
       css: {
         files: ['css/*.css'],
@@ -53,12 +63,19 @@ module.exports = function(grunt) {
         options: {
           spawn: false
         }
+      },
+      js: {
+        files: ['js/**.js'],
+        tasks: ['uglify', 'jekyll'],
+        options: {
+          spawn: false
+        }
       }
     }
 
   });
 
   require('load-grunt-tasks')(grunt);
-  
+
   grunt.registerTask('default', ['connect', 'watch']);
 }
