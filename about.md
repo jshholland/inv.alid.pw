@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Colophon
-permalink: /colophon/
+title: About
+permalink: /about/
 ---
 
 This site is produced with the [Jekyll] static site generator, using
@@ -12,6 +12,9 @@ for free as part of [Bootstrap].
 
 
 It is served by an [nginx] server running on [Debian], hosted at [BitFolk].
+
+All opinions and views expressed are my own, not those of my employer,
+family, friends, or any voices in my head.
 
 [Jekyll]: http://jekyllrb.com/
 [Grunt]: http://gruntjs.com/

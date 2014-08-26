@@ -62,13 +62,13 @@ import (
 	"strconv"
 	"time"
 )
- 
+
 const (
 	NumSuits = 4
 	NumRanks = 13
 	NumCards = NumSuits * NumRanks
 )
- 
+
 func init() { rand.Seed(time.Now().Unix()) }
 {% endhighlight %}
 
@@ -79,7 +79,9 @@ will discuss the RNG a little later on; those of you who have spotted
 a possible problem can give yourselves a pat on the back.
 
 
-[^card-shorthand]: By `2C` we mean the Two of Clubs, and by `QH` the Queen of Hearts, and so on.
+[^card-shorthand]:
+    By `2C` we mean the Two of Clubs, and by `QH` the Queen of Hearts,
+    and so on.
 
 [gist]: https://gist.github.com/jshholland/3659087
 [Go]: http://golang.org/
