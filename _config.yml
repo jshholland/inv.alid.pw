@@ -2,7 +2,6 @@
 title: inv.alid.pw
 email: jrh@joshh.co.uk
 description: personal site of Josh Holland
-baseurl: "/"
 url: "http://inv.alid.pw"
 exclude:
   - node_modules
