@@ -9,14 +9,15 @@ permalink: /
 # Josh Holland
 {: .page-header}
 
-I'm a former student of Mathematics at Keble
-College, Oxford, and currently working for [Sirius
-Corporation] in Surrey.
+Former student of Mathematics at Keble College, Oxford, currently working
+for [Sirius Corporation] in Surrey.
 {: .lead}
 
 <div class="row" markdown="1">
 
 <div class="col-md-5" markdown="1">
+
+## About me
 
 In the day, I spend most of my time writing [Puppet] code to deploy
 software such as [Icinga] and [Drupal]. At evenings and weekends, I try to
@@ -38,7 +39,18 @@ Find me elsewhere on the web:
 
 </div>
 
-<div class="col-md-7">
+<div class="col-md-7" markdown="1">
+
+{% if site.posts %}
+
+## Articles
+
+{% for post in site.posts %}
+  * [{{ post.title}}]({{post.url}})
+{% endfor %}
+
+{% endif %}
+
 </div>
 
 </div>

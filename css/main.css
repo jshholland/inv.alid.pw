@@ -20,3 +20,7 @@ body {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
 }
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}

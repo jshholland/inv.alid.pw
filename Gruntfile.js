@@ -4,7 +4,8 @@ module.exports = function(grunt) {
 
     jekyll: {
       options: {
-        src: '.'
+        src: '.',
+        drafts: true
       },
       dist: {
         options: {
@@ -40,6 +41,9 @@ module.exports = function(grunt) {
     },
 
     uglify: {
+      options: {
+        preserveComments: 'some'
+      },
       build: {
         files: [{
           expand: true,
@@ -58,7 +62,7 @@ module.exports = function(grunt) {
         }
       },
       html: {
-        files: ['*.html', '*.md', '_includes/*.html', '_layouts/*.html'],
+        files: ['*.md', '_includes/*.html', '_layouts/*.html', '_drafts/*.md', '_posts/*.md'],
         tasks: ['jekyll'],
         options: {
           spawn: false
@@ -77,5 +81,5 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
 
-  grunt.registerTask('default', ['connect', 'watch']);
+  grunt.registerTask('default', ['jekyll', 'connect', 'watch']);
 }
