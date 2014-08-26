@@ -13,8 +13,7 @@ for free as part of [Bootstrap].
 
 It is served by an [nginx] server running on [Debian], hosted at [BitFolk].
 
-All opinions and views expressed are my own, not those of my employer,
-family, friends, or any voices in my head.
+All opinions and views expressed are my own.
 
 [Jekyll]: http://jekyllrb.com/
 [Grunt]: http://gruntjs.com/
