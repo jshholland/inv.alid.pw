@@ -43,11 +43,9 @@ Find me elsewhere on the web:
 
 {% if site.posts %}
 
-## Articles
-
+## Articles 
 {% for post in site.posts %}
-  * [{{ post.title}}]({{post.url}})
-{% endfor %}
+  * [{{ post.title }}]({{ post.url }}){% endfor %}
 
 {% endif %}
 
