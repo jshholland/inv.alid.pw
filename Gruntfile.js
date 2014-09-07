@@ -5,14 +5,20 @@ module.exports = function(grunt) {
     jekyll: {
       options: {
         src: '.',
-        drafts: true
       },
       dist: {
         options: {
           dest: './_site',
           config: '_config.yml'
         }
-      }
+      },
+      drafts: {
+        options: {
+          dest: './_site',
+          config: '_config.yml',
+          drafts: true
+        }
+      } 
     },
 
     connect: {
@@ -81,5 +87,12 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
 
-  grunt.registerTask('default', ['jekyll', 'connect', 'watch']);
+  grunt.registerTask('default', [
+    'autoprefixer',
+    'cssmin',
+    'uglify',
+    'jekyll:drafts',
+    'connect',
+    'watch'
+  ]);
 }
