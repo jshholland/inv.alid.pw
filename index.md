@@ -41,7 +41,7 @@ Find me elsewhere on the web:
 
 <div class="col-md-7" markdown="1">
 
-{% if site.posts %}
+{% if site.posts.any? %}
 
 ## Articles 
 {% for post in site.posts %}
