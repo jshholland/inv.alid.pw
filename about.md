@@ -11,7 +11,7 @@ in use are icons from the [Glyphicons] Halflings set, kindly provided
 for free as part of [Bootstrap].
 
 
-It is served by an [nginx] server running on [Debian], hosted at [BitFolk].
+It is served by an [nginx] server running on [Ubuntu], hosted at [BitFolk].
 
 All opinions and views expressed are my own.
 
@@ -20,7 +20,7 @@ All opinions and views expressed are my own.
 [source]: https://github.com/jshholland/inv.alid.pw
 [Quando]: https://www.google.com/fonts/specimen/Quando
 [nginx]: http://nginx.org/
-[Debian]: https://www.debian.org/
+[Ubuntu]: http://www.ubuntu.com/
 [BitFolk]: http://bitfolk.com/
 [Glyphicons]: http://glyphicons.com/
 [Bootstrap]: http://getbootstrap.com/
