@@ -31,6 +31,7 @@ and can be reached by email at <josh@inv.alid.pw>.
 Find me elsewhere on the web:
 
  * [Facebook]
+ * [LinkedIn]
  * [Google+]
  * [Twitter]
  * [Github]
@@ -66,5 +67,6 @@ Find me elsewhere on the web:
 [Github]: https://github.com/jshholland
 [Last.fm]: http://www.last.fm/user/jshholland
 [Freenode]: http://freenode.net/
+[linkedin]: http://uk.linkedin.com/in/jshholland
 
 *[IRC]: Internet Relay Chat
