@@ -1,21 +1,19 @@
 ---
-layout: default
-title: Josh Holland
-permalink: /
+title: inv.alid.pw
 ---
 
-<div class="container" markdown="1">
+<div class="container">
 
-# Josh Holland
-{: .page-header}
+# Josh Holland {.page-header}
 
+<div class="lead">
 Former student of Mathematics at Keble College, Oxford, currently working
 for [Sirius Corporation] in Surrey.
-{: .lead}
+</div>
 
-<div class="row" markdown="1">
+<div class="row">
 
-<div class="col-md-5" markdown="1">
+<div class="col-md-5">
 
 ## About me
 
@@ -30,25 +28,23 @@ and can be reached by email at <josh@inv.alid.pw>.
 
 Find me elsewhere on the web:
 
+
+<div id="links">
  * [Facebook]
  * [LinkedIn]
  * [Google+]
  * [Twitter]
  * [Github]
  * [Last.fm]
-{: #links}
+</div>
 
 </div>
 
-<div class="col-md-7" markdown="1">
+<div class="col-md-7">
 
-{% if site.posts.any? %}
 
-## Articles 
-{% for post in site.posts %}
-  * [{{ post.title }}]({{ post.url }}){% endfor %}
-
-{% endif %}
+## Articles
+  * [{{ post.title }}]({{ post.url }})
 
 </div>
 
@@ -68,5 +64,3 @@ Find me elsewhere on the web:
 [Last.fm]: http://www.last.fm/user/jshholland
 [Freenode]: http://freenode.net/
 [linkedin]: http://uk.linkedin.com/in/jshholland
-
-*[IRC]: Internet Relay Chat

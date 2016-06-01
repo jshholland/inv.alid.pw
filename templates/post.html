@@ -1,28 +1,28 @@
----
-layout: default
----
 <div class="container">
 
   <header class="page-header">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.date | date: "%b %-d, %Y" }}</p>
+    <h1>$title$</h1>
+    <p><a href="$url$">$date$</a></p>
   </header>
 
   <div class="row">
 
   <article class="col-md-6 col-md-offset-2">
-    {{ content }}
+    $body$
   </article>
 
   </div>
-  
+
+  <a href="/"><span class="glyphicon glyphicon-home"></span> Back to
+	front</a>
+
   <div class="row">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'invalidpw';
-        var disqus_identifier = '{{ page.id }}';
-        var disqus_title = '{{ page.title }}';
-        var disqus_url = '{{ site.url }}{{ page.url }}';
+        var disqus_identifier = '$path$';
+        var disqus_title = '$title$';
+        var disqus_url = 'https://inv.alid.pw/$url$';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
@@ -34,8 +34,5 @@ layout: default
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
-    
-
-  <a href="/"><span class="glyphicon glyphicon-home"></span> Back to front</a>
 
 </div>
