@@ -1,0 +1,59 @@
+==================================================================
+https://keybase.io/jshholland
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://inv.alid.pw
+  * I am jshholland (https://keybase.io/jshholland) on keybase.
+  * I have a public key ASD4BlE0KpJfy31rjpHC4QkuwIhml02XqohWIJdiRCS7Kwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": 
+"0120f80651342a925fcb7d6b8e91c2e1092ec08866974d97aa88562097624424bb2b0a",
+            "host": "keybase.io",
+            "kid": 
+"0120f80651342a925fcb7d6b8e91c2e1092ec08866974d97aa88562097624424bb2b0a",
+            "uid": "4dc1af3fe844ece3143262e0499ba919",
+            "username": "jshholland"
+        },
+        "service": {
+            "hostname": "inv.alid.pw",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1469205289,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1469205238,
+        "hash": 
+"fbdeaba92ae7629999d37baaf09e689f23b3499eddc4c9bf30aa395c9d32469653d9614867539b27ca749f697fde9375ee0c59abd325748d93f0cf05d6a2fbcc",
+        "seqno": 538064
+    },
+    "prev": 
+"c3dbb835fd29c1b7a3231c11fd893339f5aff819db451642f49c49f9c2f7074d",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+AZRNCqSX8t9a46RwuEJLsCIZpdNl6qIViCXYkQkuysKp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjgwNjUxMzQyYTkyNWZjYjdkNmI4ZTkxYzJlMTA5MmVjMDg4NjY5NzRkOTdhYTg4NTYyMDk3NjI0NDI0YmIyYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjgwNjUxMzQyYTkyNWZjYjdkNmI4ZTkxYzJlMTA5MmVjMDg4NjY5NzRkOTdhYTg4NTYyMDk3NjI0NDI0YmIyYjBhIiwidWlkIjoiNGRjMWFmM2ZlODQ0ZWNlMzE0MzI2MmUwNDk5YmE5MTkiLCJ1c2VybmFtZSI6ImpzaGhvbGxhbmQifSwic2VydmljZSI6eyJob3N0bmFtZSI6Imludi5hbGlkLnB3IiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NjkyMDUyODksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2OTIwNTIzOCwiaGFzaCI6ImZiZGVhYmE5MmFlNzYyOTk5OWQzN2JhYWYwOWU2ODlmMjNiMzQ5OWVkZGM0YzliZjMwYWEzOTVjOWQzMjQ2OTY1M2Q5NjE0ODY3NTM5YjI3Y2E3NDlmNjk3ZmRlOTM3NWVlMGM1OWFiZDMyNTc0OGQ5M2YwY2YwNWQ2YTJmYmNjIiwic2Vxbm8iOjUzODA2NH0sInByZXYiOiJjM2RiYjgzNWZkMjljMWI3YTMyMzFjMTFmZDg5MzMzOWY1YWZmODE5ZGI0NTE2NDJmNDljNDlmOWMyZjcwNzRkIiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEDUgQlWNNjRBqXXZ5mXlQGZxj2fwxJeEoShittEFIM/jQkLOiqM/W/e2LEtXDDS/TZMO3VuILvr+3jZEUD1Wwuoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCrUeKItQpO/PuS2IlqBYlyv4U4aow7gUy/HZzRhiM3JKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jshholland
+
+==================================================================
+
