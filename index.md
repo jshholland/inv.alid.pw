@@ -2,18 +2,6 @@
 title: inv.alid.pw
 ---
 
-<div class="container">
-
-# Josh Holland {.page-header}
-
-<div class="lead">
-PhD student in Computer Science at the University of Southampton.
-</div>
-
-<div class="row">
-
-<div class="col-md-5">
-
 ## About me
 
 I can usually be found on IRC as `dutchie` on [Freenode] and elsewhere,
@@ -28,20 +16,6 @@ Find me elsewhere on the web:
  * [Github]
  * [Bitbucket]
  * [Last.fm]
-</div>
-
-</div>
-
-<div class="col-md-7">
-
-
-## Articles
-  * [{{ post.title }}]({{ post.url }})
-
-</div>
-
-</div>
-
 </div>
 
 [Facebook]: https://www.facebook.com/jshholland

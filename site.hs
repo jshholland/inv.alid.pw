@@ -23,11 +23,14 @@ main = hakyll $ do
   match "index.md" $ do
     route $ setExtension "html"
     compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/index.html"
+            (listField "posts" postCtx (loadAll "posts/**.md" >>= recentFirst) <>
+             defaultContext)
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
       >>= cleanIndexUrls
 
-  match "posts/*.md" $ do
+  match "posts/**.md" $ do
     route cleanRoute
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/post.html"    postCtx
