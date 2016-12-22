@@ -30,6 +30,17 @@ main = hakyll $ do
       >>= relativizeUrls
       >>= cleanIndexUrls
 
+  create ["posts/index.html"] $ do
+    route idRoute
+    compile $ makeItem ""
+      >>= loadAndApplyTemplate "templates/archives.html"
+            (listField "posts" postCtx (loadAll "posts/**.md" >>= recentFirst) <>
+             defaultContext)
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
+      >>= cleanIndexUrls
+
+
   match "posts/**.md" $ do
     route cleanRoute
     compile $ pandocCompiler

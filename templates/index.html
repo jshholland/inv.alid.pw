@@ -10,13 +10,16 @@
 	  $body$
 	</div>
 
+	$if(posts)$
 	<div class="col-md-7">
-	  <h2>Articles</h2>
+	  <h2>Recent articles</h2>
 	  <ul>
 		$for(posts)$
 		<li><a href="$url$">$title$</a></li>
 		$endfor$
 	  </ul>
+	  <a href="/posts/">All posts</a>
 	</div>
+	$endif$
   </div>
 </div>
