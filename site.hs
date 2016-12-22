@@ -63,9 +63,7 @@ cleanIndexUrls :: Item String -> Compiler (Item String)
 cleanIndexUrls           = return . fmap (withUrls cleanIndex)
 
 cleanIndexHtmls :: Item String -> Compiler (Item String)
-cleanIndexHtmls          = return . fmap (replaceAll pattern replacement)
-  where pattern          = "/index.html"
-        replacement      = const "/"
+cleanIndexHtmls          = return . fmap (replaceAll "/index.html" $ const "/")
 
 cleanIndex :: String -> String
 cleanIndex url
