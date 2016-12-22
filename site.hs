@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import Data.List
-import Data.Monoid (mappend)
+import Data.Monoid
 import Hakyll
 import System.FilePath
 
@@ -23,7 +23,6 @@ main = hakyll $ do
   match "index.md" $ do
     route $ setExtension "html"
     compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/page.html" defaultContext
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
       >>= cleanIndexUrls
@@ -50,7 +49,7 @@ main = hakyll $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-  dateField "date" "%B %e, %Y" `mappend`
+  dateField "date" "%B %e, %Y" <>
   defaultContext
 
 -- https://www.rohanjain.in/hakyll-clean-urls/
