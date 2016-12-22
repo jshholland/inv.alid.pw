@@ -24,7 +24,7 @@ main = hakyll $ do
     route $ setExtension "html"
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/index.html"
-            (listField "posts" postCtx (loadAll "posts/**.md" >>= recentFirst) <>
+            (listField "posts" postCtx (take 5 <$> (loadAll "posts/**.md" >>= recentFirst)) <>
              defaultContext)
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
