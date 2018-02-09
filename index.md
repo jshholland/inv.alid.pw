@@ -1,26 +1,23 @@
 ---
-title: inv.alid.pw
+title: Home
 ---
 
-## About me
+# About me
 
-I can usually be found on IRC as `dutchie` on [Freenode] and elsewhere,
-and can be reached by email at <josh@inv.alid.pw>.
+My name is Josh Holland, and I'm currently a PhD student at the
+University of Southampton.  I am investigating ways to use the string
+diagrams of symmetric monoidal category theory to model systems of
+computation such as signal flow graphs and Petri nets.  For a friendly
+introduction, see [Graphical Linear Algebra], the blog run by my
+supervisor, Paweł Sobociński.
 
-Find me elsewhere on the web:
+Before I started my PhD, I worked for [Sirius], an independent IT
+contractor based in the South of England specialising in open source
+solutions, and prior to that I studied Mathematics at Keble
+College, Oxford as my undergraduate degree, culminating in an MMath.
 
+You can get in touch with me via the social media links on the left,
+or by emailing me: <josh@inv.alid.pw>.
 
-<div id="links">
- * [Facebook]
- * [Twitter]
- * [Github]
- * [Bitbucket]
- * [Last.fm]
-</div>
-
-[Facebook]: https://www.facebook.com/jshholland
-[Twitter]: https://twitter.com/jshholland
-[Github]: https://github.com/jshholland
-[Last.fm]: http://www.last.fm/user/jshholland
-[Freenode]: http://freenode.net/
-[Bitbucket]: https://bitbucket.org/dutchie/
+[Graphical Linear Algebra]: https://graphicallinearalgebra.net/
+[Sirius]: http://www.siriusopensource.com/

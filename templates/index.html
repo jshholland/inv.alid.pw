@@ -1,25 +1,11 @@
-<div class="container">
-  <h1 class="page-header">Josh Holland</h1>
+$body$
 
-  <div class="lead">
-	PhD student in Computer Science at the University of Southampton.
-  </div>
-
-  <div class="row">
-	<div class="col-md-5">
-	  $body$
-	</div>
-
-	$if(posts)$
-	<div class="col-md-7">
-	  <h2>Recent articles</h2>
-	  <ul>
-		$for(posts)$
-		<li><a href="$url$">$title$</a></li>
-		$endfor$
-	  </ul>
-	  <a href="/posts/">All posts</a>
-	</div>
-	$endif$
-  </div>
-</div>
+$if(posts)$
+<h2>Recent posts</h2>
+<ul>
+  $for(posts)$
+  <li><a href="$url$">$title$</a> - $date$</li>
+  $endfor$
+</ul>
+<a href="/posts/">All posts</a>
+$endif$

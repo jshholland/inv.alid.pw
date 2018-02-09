@@ -1,26 +1,106 @@
+@font-face {
+	font-family: "Equity Text A";
+	src: url("/fonts/equity_text_a_regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Equity Text A";
+	src: url("/fonts/equity_text_a_bold.woff") format("woff");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Equity Text A";
+	src: url("/fonts/equity_text_a_italic.woff") format("woff");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Equity Text A";
+	src: url("/fonts/equity_text_a_bold_italic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Concourse T4";
+	src: url("/fonts/concourse_t4_regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Concourse T4";
+	src: url("/fonts/concourse_t4_bold.woff") format("woff");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Concourse T4";
+	src: url("/fonts/concourse_t4_italic.woff") format("woff");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Concourse T4";
+	src: url("/fonts/concourse_t4_bold_italic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
+
+html {
+	font-size: 18px;
+}
+
 body {
-  font-family: 'Quando', serif;
-  background-color: #ddd;
-  padding-bottom: 200px;
+	background: url("/img/bg.png") repeat-y;
+	width: 960px;
+	font-family: "Equity Text A", serif;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	line-height: 1.4;
 }
 
-#links ul {
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  list-style-type: none;
+#sidebar {
+	position: fixed;
+	margin-left: 10px;
+	width: 140px;
 }
 
-#links li {
-  padding: 0 0.5em;
+#main {
+	margin-left: 160px;
+	margin-right: 10px;
+	width: 600px;
 }
 
-.page-content {
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+h1, h2, h3, h4, h5, h6, .link-header {
+	font-family: "Concourse T4", sans-serif;
 }
 
-code {
-  font-family: 'Source Code Pro', monospace;
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1.5px solid;
+	background: rgb(210, 210, 255);
+}
+
+.link-header {
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#sidebar a {
+	color: black;
+}
+
+#sidebar a:hover {
+	border-bottom: 1.5px solid;
+	background: transparent;
 }
