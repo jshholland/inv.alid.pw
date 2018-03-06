@@ -10,7 +10,7 @@ import System.FilePath
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll  $ do
+main = hakyllWith conf $ do
   match staticFiles $ do
     route   idRoute
     compile copyFileCompiler
@@ -87,6 +87,10 @@ pandocCompiler = pandocCompilerWith readOpts writeOpts
           { writerHTMLMathMethod = MathJax "/js/MathJax.js"
           }
 
+conf :: Configuration
+conf = defaultConfiguration
+  { deployCommand = "rsync -rvz --delete --exclude-from=.rsync-ignores _site inv.alid.pw:/srv/inv.alid.pw"
+  }
 
 staticFiles :: Pattern
 staticFiles = foldl1 (.||.)
