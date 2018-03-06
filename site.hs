@@ -90,14 +90,23 @@ pandocCompiler = pandocCompilerWith readOpts writeOpts
 conf :: Configuration
 conf = defaultConfiguration
   { deployCommand = "rsync -rvz --delete --exclude-from=.rsync-ignores _site inv.alid.pw:/srv/inv.alid.pw"
+  , ignoreFile = ignoreFile'
   }
+
+ignoreFile' :: FilePath -> Bool
+ignoreFile' path
+      | "#"    `isPrefixOf` fileName = True
+      | "~"    `isSuffixOf` fileName = True
+      | ".swp" `isSuffixOf` fileName = True
+      | otherwise                    = False
+    where
+      fileName = takeFileName path
 
 staticFiles :: Pattern
 staticFiles = foldl1 (.||.)
   [ "robots.txt"
   , "css/**"
   , "js/**"
-  , "fonts/**"
   , "img/**"
   , ".well-known/keybase.txt"
   ]
