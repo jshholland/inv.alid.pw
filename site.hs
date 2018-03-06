@@ -4,12 +4,13 @@ import Control.Monad
 import Data.List
 import Data.Maybe
 import Data.Monoid
-import Hakyll
+import Hakyll hiding (pandocCompiler)
+import Text.Pandoc
 import System.FilePath
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyll  $ do
   match staticFiles $ do
     route   idRoute
     compile copyFileCompiler
@@ -78,6 +79,14 @@ fixUrls = relativizeUrls >=> cleanIndexUrls
 
 isPublished :: Metadata -> Bool
 isPublished = isJust . lookupString "published"
+
+pandocCompiler :: Compiler (Item String)
+pandocCompiler = pandocCompilerWith readOpts writeOpts
+  where readOpts = defaultHakyllReaderOptions
+        writeOpts = defaultHakyllWriterOptions
+          { writerHTMLMathMethod = MathJax "/js/MathJax.js"
+          }
+
 
 staticFiles :: Pattern
 staticFiles = foldl1 (.||.)
