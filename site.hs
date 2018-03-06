@@ -2,6 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Control.Monad
 import Data.List
+import Data.Maybe
 import Data.Monoid
 import Hakyll
 import System.FilePath
@@ -32,7 +33,7 @@ main = hakyll $ do
       >>= fixUrls
 
 
-  match "posts/**.md" $ do
+  matchMetadata "posts/**.md" isPublished $ do
     route cleanRoute
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/post.html"    postCtx
@@ -74,6 +75,9 @@ cleanIndex url
 
 fixUrls :: Item String -> Compiler (Item String)
 fixUrls = relativizeUrls >=> cleanIndexUrls
+
+isPublished :: Metadata -> Bool
+isPublished = isJust . lookupString "published"
 
 staticFiles :: Pattern
 staticFiles = foldl1 (.||.)
