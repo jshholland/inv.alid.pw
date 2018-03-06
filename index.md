@@ -29,8 +29,8 @@ learning [Lojban], [Toki Pona] and [Esperanto]; I regularly attend the
 meetings of the [Southampton Esperanto Group], whose website I
 maintain and host.
 
-You can get in touch with me via the social media links on the left,
-or by email to <josh@inv.alid.pw>.
+You can get in touch with me via the social media links in the
+navigation bar, or by email to <josh@inv.alid.pw>.
 
 [Graphical Linear Algebra]: https://graphicallinearalgebra.net/
 [Sirius]: http://www.siriusopensource.com/
