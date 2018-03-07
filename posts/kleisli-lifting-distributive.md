@@ -55,7 +55,7 @@ coherence laws.  In the paper, he in fact gives a way to recover the
 multiplication/addition law back from this construction, which is
 pretty cool.
 
-The main theorem related to distributive laws of monads, is the
+The main theorem related to distributive laws of monads is the
 equivalence of
 
 1. a distributive law of \\(S\\) over \\(T\\);
