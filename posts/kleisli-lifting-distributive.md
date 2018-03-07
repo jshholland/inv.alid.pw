@@ -25,16 +25,15 @@ known as a triple, consists of three pieces of data:
 such that \\( \\mu \\circ T\\mu = \\mu \\circ \\mu T \\)
 (associativity) and \\( \\mu \\circ T \\eta = \\mu \\circ \\eta T = 1
 \\) (unit law), famously summarised as "a monad is a monoid in the
-category of endofunctors"[^1].  Given a monad \\(
-T \\), we may form its *Kleisli category* \\( \\mathbf{Kl}(T) \\),
-which has the same objects as the underlying category and where an
-arrow \\( X \\nrightarrow Y \\) is a \\( \\mathcal{C} \\)-arrow \\( X
-\\rightarrow TY \\).  I'll use this different notation because it's
-important to keep straight the distinction between arrows in the
-underlying category and the Kleisli category.  The identities are
-given by the unit maps \\( \\eta_X \\) and composition of \\(f: X
-\\nrightarrow Y\\) and \\(g: Y \\nrightarrow Z\\) uses the
-multiplication:
+category of endofunctors"[^1].  Given a monad \\( T \\), we may form
+its *Kleisli category* \\( \\mathbf{Kl}(T) \\), which has the same
+objects as the underlying category and where an arrow \\( X
+\\nrightarrow Y \\) is a \\( \\mathcal{C} \\)-arrow \\( X \\rightarrow
+TY \\).  I'll use this different notation for Kleisli arrows because
+it's important to keep straight the distinction between them and
+arrows in the underlying category.  The identities are given by the
+unit maps \\( \\eta_X \\) and composition of \\(f: X \\nrightarrow
+Y\\) and \\(g: Y \\nrightarrow Z\\) uses the multiplication:
 
 \\[
 X \\xrightarrow{f} TY \\xrightarrow{Tg} TTZ \\xrightarrow{\\mu_Z} TZ
@@ -75,13 +74,13 @@ around it, and in any case I needed to write the construction down
 from first principles for my application.
 
 To warm up, let's look at the most well-known use for a distributive
-law \\(\\lambda : ST \\to TS\\): giving the composite \\(TS\\) a monad
-structure.  Simply composing the units \\(\\eta^T \\circ \\eta^S \\)
-gives a natural transformation which will be the unit of the composite
-monad, but the bit which actually requires a distributive law is
-defining a multiplication \\(\\mu^{TS} : TSTS \\rightarrow TS \\).
-It's one of those times when there's essentially only one thing you
-can write down, and that is exactly what you need:
+law \\(\\lambda : ST \\to TS\\): giving the composite functor \\(TS\\)
+a monad structure.  Simply composing the units \\(\\eta^T \\circ
+\\eta^S \\) gives a natural transformation which will be the unit of
+the composite monad, but the bit which actually requires a
+distributive law is defining a multiplication \\(\\mu^{TS} : TSTS
+\\rightarrow TS \\).  It's one of those times when there's essentially
+only one thing you can write down, and that is exactly what you need:
 
 \\[
 TSTS \\xrightarrow{T \\lambda S} TTSS \\xrightarrow{\\mu^T \\mu^S} TS
