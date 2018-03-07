@@ -89,7 +89,7 @@ pandocCompiler = pandocCompilerWith readOpts writeOpts
 
 conf :: Configuration
 conf = defaultConfiguration
-  { deployCommand = "rsync -rvz --delete --exclude-from=.rsync-ignores _site inv.alid.pw:/srv/inv.alid.pw"
+  { deployCommand = "rsync -rvz --delete --exclude-from=.rsync-ignores _site/ inv.alid.pw:/srv/inv.alid.pw/"
   , ignoreFile = ignoreFile'
   }
 
