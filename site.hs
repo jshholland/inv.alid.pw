@@ -1,5 +1,6 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+import Control.Applicative
 import Control.Monad
 import Data.List
 import Data.Maybe
@@ -38,6 +39,7 @@ main = hakyllWith conf $ do
     route cleanRoute
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/post.html"    postCtx
+      >>= saveSnapshot "content"
       >>= loadAndApplyTemplate "templates/default.html" postCtx
       >>= fixUrls
 
@@ -49,10 +51,25 @@ main = hakyllWith conf $ do
 
   match "templates/*" $ compile templateBodyCompiler
 
+  create ["atom.xml"] $ do
+    route idRoute
+    compile $ do
+      let feedCtx = postCtx <> bodyField "description"
+      posts <- fmap (take 10) . recentFirst =<< loadAllSnapshots "posts/**.md" "content"
+      renderAtom feedConfiguration feedCtx posts
+
+  create ["rss.xml"] $ do
+    route idRoute
+    compile $ do
+      let feedCtx = postCtx <> bodyField "description"
+      posts <- fmap (take 10) . recentFirst =<< loadAllSnapshots "posts/**.md" "content"
+      renderRss feedConfiguration feedCtx posts
+
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
   dateField "date" "%e %B %Y" <>
+  cleanUrlField "url" <>
   defaultContext
 
 -- https://www.rohanjain.in/hakyll-clean-urls/
@@ -67,6 +84,10 @@ cleanIndexUrls = return . fmap (withUrls cleanIndex)
 
 cleanIndexHtmls :: Item String -> Compiler (Item String)
 cleanIndexHtmls = return . fmap (replaceAll "/index.html" $ const "/")
+
+cleanUrlField :: String -> Context a
+cleanUrlField key = field key $
+  fmap (maybe empty (cleanIndex . toUrl)) . getRoute . itemIdentifier
 
 cleanIndex :: String -> String
 cleanIndex url
@@ -110,3 +131,12 @@ staticFiles = foldl1 (.||.)
   , "img/**"
   , ".well-known/keybase.txt"
   ]
+
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+  { feedTitle = "inv.alid.pw"
+  , feedDescription = ""
+  , feedAuthorName = "Josh Holland"
+  , feedAuthorEmail = "josh@inv.alid.pw"
+  , feedRoot = "https://inv.alid.pw"
+  }

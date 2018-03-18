@@ -1,5 +1,9 @@
 <div class="container">
   <h1 class="page-header">All posts</h1>
+  <a href="/atom.xml" rel="alternate"
+	 type="application/atom+xml">Atom</a>
+  - <a href="/rss.xml" rel="alternate"
+	   type="application/rss+xml">RSS</a>
   <ul>
 	$for(posts)$
 	<li><a href="$url$">$title$</a> - $date$</li>
