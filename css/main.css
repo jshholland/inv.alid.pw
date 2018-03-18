@@ -132,3 +132,16 @@ a:hover {
 	border-bottom: 1.5px solid;
 	background: transparent;
 }
+
+code {
+	hyphens: none;
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	font-family: 'Fira Mono', monospace;
+	font-size: 0.8rem;
+	background-color: #eee;
+}
+
+pre {
+	background-color: #eee;
+}
