@@ -21,33 +21,33 @@ main = hakyllWith conf $ do
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/index.html"
             (listField "posts" postCtx (take 5 <$> (loadAll "posts/**.md" >>= recentFirst)) <>
-             defaultContext)
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= fixUrls
+             myContext)
+      >>= loadAndApplyTemplate "templates/default.html" myContext
+      >>= relativizeUrls
 
   create ["posts/index.html"] $ do
     route idRoute
     compile $ makeItem ""
       >>= loadAndApplyTemplate "templates/archives.html"
             (listField "posts" postCtx (loadAll "posts/**.md" >>= recentFirst) <>
-             defaultContext)
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= fixUrls
+             myContext)
+      >>= loadAndApplyTemplate "templates/default.html" myContext
+      >>= relativizeUrls
 
 
   matchMetadata "posts/**.md" isPublished $ do
     route cleanRoute
     compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/post.html"    postCtx
       >>= saveSnapshot "content"
+      >>= loadAndApplyTemplate "templates/post.html"    postCtx
       >>= loadAndApplyTemplate "templates/default.html" postCtx
-      >>= fixUrls
+      >>= relativizeUrls
 
   match "*.md" $ do
     route cleanRoute
     compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= fixUrls
+      >>= loadAndApplyTemplate "templates/default.html" myContext
+      >>= relativizeUrls
 
   match "templates/*" $ compile templateBodyCompiler
 
@@ -69,6 +69,10 @@ main = hakyllWith conf $ do
 postCtx :: Context String
 postCtx =
   dateField "date" "%e %B %Y" <>
+  myContext
+
+myContext :: Context String
+myContext =
   cleanUrlField "url" <>
   defaultContext
 
@@ -79,12 +83,6 @@ cleanRoute = customRoute createIndexRoute
           let p = toFilePath ident
           in takeDirectory p </> takeBaseName p </> "index.html"
 
-cleanIndexUrls :: Item String -> Compiler (Item String)
-cleanIndexUrls = return . fmap (withUrls cleanIndex)
-
-cleanIndexHtmls :: Item String -> Compiler (Item String)
-cleanIndexHtmls = return . fmap (replaceAll "/index.html" $ const "/")
-
 cleanUrlField :: String -> Context a
 cleanUrlField key = field key $
   fmap (maybe empty (cleanIndex . toUrl)) . getRoute . itemIdentifier
@@ -94,9 +92,6 @@ cleanIndex url
   | idx `isSuffixOf` url = take (length url - length idx) url
   | otherwise            = url
   where idx = "index.html"
-
-fixUrls :: Item String -> Compiler (Item String)
-fixUrls = relativizeUrls >=> cleanIndexUrls
 
 isPublished :: Metadata -> Bool
 isPublished = isJust . lookupString "published"
