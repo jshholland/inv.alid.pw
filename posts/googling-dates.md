@@ -1,6 +1,5 @@
 ---
 title: Googling dates
-published: 2018-04-03
 ---
 
 I've started reading Jon Ronson's *So You've Been Publicly Shamed*,
