@@ -1,6 +1,13 @@
 ---
 title: Googling dates
+published: 2018-06-07
 ---
+
+::: {.author-note}
+Author's note: I wrote this a while ago, but decided that I wanted to
+look up and add some statistics before publishing it.  That's probably
+never going to happen, so here is the post as it stands.
+:::
 
 I've started reading Jon Ronson's *So You've Been Publicly Shamed*,
 which has been on my list for a while after I've enjoyed much of his
@@ -32,8 +39,8 @@ respect to relationships.
 
 British people are stereotypically more reserved and respectful of
 status differences than Americans.  We still enjoy gossip behind
-people's backs though, but social class is often given away through
-speech and mannerisms, obviating much of a need to research someone's
+people's backs, but social class is often given away through speech
+and mannerisms, obviating much of a need to research someone's
 background.  I don't have much concrete to back this up, but it
 doesn't feel too difficult to justify myself using national tendencies
 in this way.

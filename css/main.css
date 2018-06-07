@@ -145,3 +145,17 @@ code {
 pre {
 	background-color: #eee;
 }
+
+.author-note > p::before {
+	content: "[";
+}
+
+.author-note > p::after {
+	content: "]";
+}
+
+.author-note {
+	font-style: italic;
+	font-size: 0.8rem;
+	color: #1e1e1e;
+}
