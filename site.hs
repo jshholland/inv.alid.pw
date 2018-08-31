@@ -31,7 +31,9 @@ main = hakyllWith conf $ do
       >>= loadAndApplyTemplate "templates/archives.html"
             (listField "posts" postCtx (loadAll "posts/**.md" >>= recentFirst) <>
              myContext)
-      >>= loadAndApplyTemplate "templates/default.html" myContext
+      >>= loadAndApplyTemplate "templates/default.html"
+            (constField "title" "Post archive" <>
+             myContext)
       >>= relativizeUrls
 
 
