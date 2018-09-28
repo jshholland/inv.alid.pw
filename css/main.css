@@ -160,3 +160,9 @@ pre {
 	font-size: 0.8rem;
 	color: #1e1e1e;
 }
+
+blockquote {
+	margin-left: 29px;
+	border-left: 2px solid;
+	padding-left: 9px;
+}
