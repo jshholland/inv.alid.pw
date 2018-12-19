@@ -1,5 +1,5 @@
 ---
-title: On privacy and mass surveillance and its justification: A recluse's charter
+title: "On privacy and mass surveillance and its justification: A recluse's charter"
 ---
 
 > For too long, we have been a passively tolerant society, saying to our

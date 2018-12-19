@@ -1,5 +1,5 @@
 ---
-title: How to Write Good: Fowler's Modern English Usage and Hart's Rules
+title: "How to Write Good: Fowler's Modern English Usage and Hart's Rules"
 ---
 
 I've been doing a lot of writing recently, and often questions of

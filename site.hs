@@ -70,6 +70,7 @@ main = hakyllWith conf $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
+  dateField "dateiso8601" "%F" <>
   dateField "date" "%e %B %Y" <>
   myContext
 
