@@ -1,15 +1,16 @@
 $body$
 
 $if(posts)$
-<h2>Recent posts</h2>
+<h2>Posts</h2>
+
+<a href="/atom.xml" rel="alternate"
+	 type="application/atom+xml">Atom</a>
+- <a href="/rss.xml" rel="alternate"
+	 type="application/rss+xml">RSS</a>
+
 <ul>
   $for(posts)$
   <li><a href="$url$">$title$</a> - $date$</li>
   $endfor$
 </ul>
-<a href="/posts/">All posts</a>
-- <a href="/atom.xml" rel="alternate"
-	 type="application/atom+xml">Atom</a>
-- <a href="/rss.xml" rel="alternate"
-	 type="application/rss+xml">RSS</a>
 $endif$

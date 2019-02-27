@@ -20,22 +20,10 @@ main = hakyllWith conf $ do
     route $ setExtension "html"
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/index.html"
-            (listField "posts" postCtx (take 5 <$> (loadAll "posts/**.md" >>= recentFirst)) <>
+            (listField "posts" postCtx (loadAll "posts/**.md" >>= recentFirst) <>
              myContext)
       >>= loadAndApplyTemplate "templates/default.html" myContext
       >>= relativizeUrls
-
-  create ["posts/index.html"] $ do
-    route idRoute
-    compile $ makeItem ""
-      >>= loadAndApplyTemplate "templates/archives.html"
-            (listField "posts" postCtx (loadAll "posts/**.md" >>= recentFirst) <>
-             myContext)
-      >>= loadAndApplyTemplate "templates/default.html"
-            (constField "title" "Post archive" <>
-             myContext)
-      >>= relativizeUrls
-
 
   matchMetadata "posts/**.md" isPublished $ do
     route cleanRoute
