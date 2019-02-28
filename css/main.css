@@ -143,6 +143,11 @@ code {
 	background-color: #eee;
 }
 
+code a:hover {
+	border-bottom: none;
+	background: none;
+}
+
 pre {
 	background-color: #eee;
 }
@@ -165,4 +170,8 @@ blockquote {
 	margin-left: 29px;
 	border-left: 2px solid;
 	padding-left: 9px;
+}
+
+.footnotes {
+	margin-top: 8rem;
 }
