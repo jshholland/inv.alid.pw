@@ -21,7 +21,7 @@ we make the world look that way?").  Robin Hanson's
 this distinction, and so does Scott Alexander's fictional [Shining
 Garden](https://slatestarcodex.com/2013/05/06/raikoth-laws-language-and-society/).
 
-Today's "don't believe anything you read on the internet" article
+Today's "don't believe anything you read on the internet" article:
 [Gizmodo](https://gizmodo.com/the-fake-sex-doctor-who-conned-the-media-into-publicizi-1832711205)
 exposes "Dr." David Sendler, whose studies have led to articles in
 places from Forbes to [Savage
