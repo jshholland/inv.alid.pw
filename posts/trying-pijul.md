@@ -12,7 +12,7 @@ is hardly a major marginal cost.
 Besides, Pijul is interesting in a lot of ways.  Git and Mercurial
 work very hard to pretend that patches are the basic unit, but in
 reality they store snapshots of files.  In Pijul, patches really are
-fundamental; it is based on "patch theory", pioneered by [Darcs],
+fundamental; it is based on 'patch theory', pioneered by [Darcs],
 another obscure VCS I've flirted with in the past.  As one may expect
 from a Haskell project, patch theory is an application of category
 theory to a software engineering problem.  This isn't just abstract
@@ -21,7 +21,7 @@ theory is more intuitive (which is why other systems fake it in the
 UI), and makes both [cherry-picking] and [merges] easier.
 
 Pijul has not (at the time of writing) had a 1.0 release yet, but it's
-[self-hosting]; impressively so, with its own "[Nest]" GitHub-alike
+[self-hosting]; impressively so, with its own '[Nest]' GitHub-alike
 that's remarkably feature complete for such a young project.  The
 documentation, like that of many similar hobbyist FOSS projects, is a
 little bit lacking---parts are out of date and it's spread across a

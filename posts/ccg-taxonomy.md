@@ -1,5 +1,5 @@
 ---
-title: A taxonomy of "collectible" card games
+title: A taxonomy of collectible card games
 ---
 
 | Game        | Format           | Business model           | Interaction on opp's turn |

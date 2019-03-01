@@ -8,25 +8,25 @@ me:
 
 > The changes ... shined a national spotlight
 
-In particular, the usage of "shined" over "shone" seemed very
+In particular, the usage of 'shined' over 'shone' seemed very
 unnatural to me.  As a result of doing a little research on this, both
 words have now completely [lost any meaning].  I hope that someone
 reads this blog post so it was all worth it.
 
-My first stop was the entry on Wiktionary, which lists both "shined"
-and "shone" as equally acceptable simple past or participle forms.  I
+My first stop was the entry on Wiktionary, which lists both 'shined'
+and 'shone' as equally acceptable simple past or participle forms.  I
 didn't think that this was quite right, so I continued my digging.  A
-search for "shined or shone" revealed the usual mass of grammar blogs.
+search for 'shined or shone' revealed the usual mass of grammar blogs.
 The top result was [Grammarist], which has a very short entry saying
-that historically, "shone" was for something emitting light, and
-"shined" was for polishing something, although in modern usage this is
+that historically, 'shone' was for something emitting light, and
+'shined' was for polishing something, although in modern usage this is
 less strictly adhered to.  Most other results had a similar, although
 not quite the same, transitive vs intransitive distinction.  One even
-mentioned a mnemonic "rhyme": "shone stands alone".
+mentioned a mnemonic 'rhyme': 'shone stands alone'.
 
-I put "rhyme" in scare quotes there because in my (British English RP)
-accent it doesn't rhyme at all: "shone" as in "gone" and "alone" as in
-"moan".  This reinforces my initial intuition that there is some
+I put 'rhyme' in scare quotes there because in my (British English RP)
+accent it doesn't rhyme at all: 'shone' as in 'gone' and 'alone' as in
+'moan'.  This reinforces my initial intuition that there is some
 British vs American difference here.  Inspired by my favourite blog
 about such differences, [Separated by a Common Language], whose post
 on this I only thought to search for after doing all this other
@@ -35,7 +35,7 @@ research myself, I looked up the two words in a [corpus]:
 ![GloWbE search for shined](/img/shined.png){ width=100% }
 ![GloWbE search for shone](/img/shone.png){ width=100% }
 
-And there we have it: "shone" is proportionally much more common in
+And there we have it: 'shone' is proportionally much more common in
 British (and Commonwealth) English than it is in American.  Now you
 should go read that [SbaCL][Separated by a Common Language] post
 because it's written by someone who actually studies this stuff for a

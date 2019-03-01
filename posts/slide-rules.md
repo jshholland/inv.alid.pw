@@ -13,8 +13,8 @@ and the presentation of archaeological, historical and genetic
 information was really well done.
 
 One I hadn't visited before is the [Museum of the History of Science].
-It's perhaps a little light on information you would call "the History
-of Science", and I don't think they ever went so far as to explain how
+It's perhaps a little light on information you would call 'the History
+of Science', and I don't think they ever went so far as to explain how
 to *use* any of the many astrolabes, but the collection on display is
 really astounding.  Clocks, medical equipment, old electrical
 demonstrations and toys, surveying instruments, and more are all in

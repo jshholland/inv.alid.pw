@@ -13,7 +13,7 @@ function (in fact, much much longer).
 
 Naturally I felt compelled to write up [an implementation] in my new
 favourite language, [Rust].  It's not quite as slick as the Haskell
-one, partly because I didn't "cheat" and use a standard library
+one, partly because I didn't 'cheat' and use a standard library
 implementation of `permutations` and chose to follow the paper more
 closely in using Bubblesort rather than insertion sort, but mostly
 because Rust is more verbose with things like curly brackets than

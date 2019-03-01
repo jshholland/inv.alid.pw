@@ -24,11 +24,11 @@ two scales that we care about:
 ![](/img/sliderule-mult-1.jpg){ width=100% }
 They are graduated with exactly the same scale, and all of the values
 line up.  This starting position can be thought of as the process
-"multiply by 1".  Since in this example we want to multiply by 2, we
+'multiply by 1'.  Since in this example we want to multiply by 2, we
 slide the movable middle section (scale C) until the 1 lines up with 2
 on the lower section (scale D).
 ![](/img/sliderule-mult-2.jpg){ width=100% }
-Now the rule represents the operation "multiply by 2".  We can already
+Now the rule represents the operation 'multiply by 2'.  We can already
 see everything lines up as you'd expect: already visible is \\(2
 \\times 1.5 = 3\\), and it's just a matter of looking further along to
 read off the answer \\(2 \\times 4 = 8\\).

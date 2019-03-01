@@ -24,8 +24,8 @@ known as a triple, consists of three pieces of data:
 
 such that \\( \\mu \\circ T\\mu = \\mu \\circ \\mu T \\)
 (associativity) and \\( \\mu \\circ T \\eta = \\mu \\circ \\eta T = 1
-\\) (unit law), famously summarised as "a monad is a monoid in the
-category of endofunctors"[^1].  Given a monad \\( T \\), we may form
+\\) (unit law), famously summarised as 'a monad is a monoid in the
+category of endofunctors'[^1].  Given a monad \\( T \\), we may form
 its *Kleisli category* \\( \\mathbf{Kl}(T) \\), which has the same
 objects as the underlying category and where an arrow \\( X
 \\nrightarrow Y \\) is a \\( \\mathcal{C} \\)-arrow \\( X \\rightarrow

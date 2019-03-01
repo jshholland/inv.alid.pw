@@ -9,12 +9,12 @@ supports UTF-8, so just running pdfLaTeX on it is not a solution, and
 it would be nice to have a method that works on any text file.
 
 The first tool any seasoned Unix admin reaches for to answer the
-question "Does a particular character occur in a text file?" is, of
+question 'Does a particular character occur in a text file?' is, of
 course, `grep`.  The man pages don't list a built-in character class
 right away for ASCII characters, so a tiny bit of ingenuity is
 required.  [This Stack Overflow answer][SO] gives a command which
-almost works (in my testing it found the "ï" of "naïve" but missed the
-"ń" in a Polish name), but it's easily modified into the following:
+almost works (in my testing it found the 'ï' of 'naïve' but missed the
+'ń' in a Polish name), but it's easily modified into the following:
 
     grep -P '[^\x00-\x7f]' myfile.tex
 

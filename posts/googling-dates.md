@@ -13,8 +13,8 @@ I've started reading Jon Ronson's *So You've Been Publicly Shamed*,
 which has been on my list for a while after I've enjoyed much of his
 other work.  In the fourth chapter, he quotes Justine Sacco, whose
 somewhat racist tweet went viral while she was on an 11-hour flight,
-as saying "it's not like I can date, because we google everyone we
-might date".  Now, I'm not particularly interested in the morals of
+as saying 'it's not like I can date, because we google everyone we
+might date'.  Now, I'm not particularly interested in the morals of
 what happened to Justine Sacco and her tweet (though I might have some
 thoughts for a later post after I finish the book), but this sentence
 caught my attention.  The idea of looking online to see if some
