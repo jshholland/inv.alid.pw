@@ -13,7 +13,17 @@ would likely not eat anywhere where both were bad, they fail to allow
 for the large number of restaurants in this category which would
 weaken or even flip the correlation.'
 
-https://jameshfisher.com/2019/03/08/why-cant-i-set-the-font-size-of-a-visited-link
+[Colin Wright](https://twitter.com/ColinTheMathmo) is mostly famous
+for inventing the juggling notation known as 'siteswap', but was in
+fact a maths PhD supervised by Béla Bollabás at Cambridge.  He has a
+blog full of interesting puzzles and others, including a series of
+twists on the classical 'rope around the Earth' problem.  [This
+one](https://www.solipsys.co.uk/new/TheOtherWrappingTheEarthProblem.html)
+is my favourite.
+
+[Why can't font size be set on
+`a:visited`?](https://jameshfisher.com/2019/03/08/why-cant-i-set-the-font-size-of-a-visited-link)
+Surprising things that have to be done in the name of privacy.
 
 OpenType font shaping is [Turing
 complete](https://litherum.blogspot.com/2019/03/addition-font.html),
@@ -25,15 +35,21 @@ Service](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service),
 and how social capital is the real motive behind people's behaviour on
 social networks.
 
-http://news.bbc.co.uk/1/hi/technology/3639679.stm
-
-https://johncarlosbaez.wordpress.com/2019/03/02/negative-carbon-emissions/
-https://www.nytimes.com/2019/02/12/magazine/climeworks-business-climate-change.html
+[NYT article on a carbon dioxide scrubbing
+startup.](https://www.nytimes.com/2019/02/12/magazine/climeworks-business-climate-change.html)
+Encouraging ideas, but seems energetically implausible.  [John
+Baez](https://johncarlosbaez.wordpress.com/2019/03/02/negative-carbon-emissions/)
+writes about similar ideas.
 
 'Why are you reading about [airships]?' 'Because airships are cool.'
 Back-of-the-envelope calculations (admittedly by an airship blog)
 suggest that giant cargo airships could be a trillion dollar industry
 (the calculations are rough enough that what we mean by that doesn't
-matter: could be market cap, revenue, value of assets...).
+matter: could be market cap, revenue, value of assets...).  They offer
+a previously nonexistent low-cost, medium speed transport method that
+is agnostic of land or sea.  From the point of view of carbon, they
+are encouraging in that they only require energy to go forwards,
+although drag is a big concern and hydrogen is fairly expensive to
+produce.
 
 [airships]: https://www.roadlessrevolution.com/2019/02/why-giant-airships-could-be-trillion.html
