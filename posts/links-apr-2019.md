@@ -9,6 +9,11 @@ complete](https://litherum.blogspot.com/2019/03/addition-font.html),
 although this requires a custom HarfBuzz build to increase the
 recursion limit past 6.
 
+[Long post on Status as a
+Service](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service),
+and how social capital is the real motive behind people's behaviour on
+social networks.
+
 http://news.bbc.co.uk/1/hi/technology/3639679.stm
 
 https://johncarlosbaez.wordpress.com/2019/03/02/negative-carbon-emissions/
