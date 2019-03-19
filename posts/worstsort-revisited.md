@@ -1,5 +1,6 @@
 ---
 title: "Worstsort revisited: Is Haskell's type system stronger?"
+published: 2019-03-14
 ---
 
 [My recent post] about worstsort has a problem: the code doesn't
@@ -62,7 +63,9 @@ is instantiated as `Vec<i32>`, so the compiler has to produce code for
 `badsort_vecveci32`, and then from there it will keep going forever.
 
 So, there are two key questions: why was this _not_ a problem for
-Haskell, and is there a way to get round it in Rust?
+Haskell, and is there a way to get round it in Rust?  At the moment, I
+don't know!  I hope to get some free time to investigate this at some
+point, and I'll definitely write up whatever I find on here.
 
 [^1]: I'm glossing over trait bounds since they aren't relevant for
     this problem.
