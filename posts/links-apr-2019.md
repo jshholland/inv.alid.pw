@@ -2,6 +2,17 @@
 title: Links for April 2019
 ---
 
+[Berkson's paradox](https://en.wikipedia.org/wiki/Berkson's_paradox)
+is a counterintuitive result which most often manifests as falsely
+observing a negative correlation between independent variables when
+one mistakenly only sees cases when at least one of them occurs.
+Wikipedia's example: 'For example, a person may observe from their
+experience that fast food restaurants in their area which serve good
+hamburgers tend to serve bad fries and vice versa; but because they
+would likely not eat anywhere where both were bad, they fail to allow
+for the large number of restaurants in this category which would
+weaken or even flip the correlation.'
+
 https://jameshfisher.com/2019/03/08/why-cant-i-set-the-font-size-of-a-visited-link
 
 OpenType font shaping is [Turing
