@@ -21,6 +21,13 @@ twists on the classical 'rope around the Earth' problem.  [This
 one](https://www.solipsys.co.uk/new/TheOtherWrappingTheEarthProblem.html)
 is my favourite.
 
+During the Second World War, the US was developing a revolutionary new
+method of incendiary bomb delivery: [hibernating
+bats](https://en.wikipedia.org/wiki/Bat_bomb).  It was only cancelled
+because the Manhattan project was progressing more quickly.  I can
+only wonder at the world in which incendiary bat bombs were the threat
+on which the Cold War was built instead of nuclear weapons.
+
 [Why can't font size be set on
 `a:visited`?](https://jameshfisher.com/2019/03/08/why-cant-i-set-the-font-size-of-a-visited-link)
 Surprising things that have to be done in the name of privacy.
