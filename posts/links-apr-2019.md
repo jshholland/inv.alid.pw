@@ -37,6 +37,10 @@ complete](https://litherum.blogspot.com/2019/03/addition-font.html),
 although this requires a custom HarfBuzz build to increase the
 recursion limit past 6.
 
+Also Turing complete is [the x86 instruction set, but using only
+`mov`](https://www.cl.cam.ac.uk/~sd601/papers/mov.pdf).  I am once
+again reminded that Turing-completeness is not a high bar.
+
 [Long post on Status as a
 Service](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service),
 and how social capital is the real motive behind people's behaviour on
