@@ -1,6 +1,11 @@
 ---
 title: Links for April 2019
+published: 2019-04-01
 ---
+
+These links were collected over March, so I will
+presumably be a month late with the various internet tomfoolery
+associated with this post's publication date.
 
 [Berkson's paradox](https://en.wikipedia.org/wiki/Berkson's_paradox)
 is a counterintuitive result which most often manifests as falsely
@@ -11,7 +16,8 @@ experience that fast food restaurants in their area which serve good
 hamburgers tend to serve bad fries and vice versa; but because they
 would likely not eat anywhere where both were bad, they fail to allow
 for the large number of restaurants in this category which would
-weaken or even flip the correlation.'
+weaken or even flip the correlation.'  Probably a useful concept to
+have a handle for.
 
 [Colin Wright](https://twitter.com/ColinTheMathmo) is mostly famous
 for inventing the juggling notation known as 'siteswap', but was in
