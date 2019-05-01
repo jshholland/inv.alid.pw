@@ -53,9 +53,9 @@ complaining of a copper merchant's inferior quality ingots and rude
 treatment of his messenger.  What is less well-known is that (perhaps
 inevitably) this has led to a certain amount of [slash fiction] (NSFW
 text) being written about Ea-nasir and Nanni.  AO3 has no fewer than
-[6 other stories] inspired by this tablet.
+[6 other stories] inspired by this tablet. (This one via [Mark Dominus].)
 
 [tablet]: https://en.wikipedia.org/wiki/Complaint_tablet_to_Ea-nasir
 [slash fiction]: https://archiveofourown.org/works/9008380?view_adult=true
 [6 other stories]: https://archiveofourown.org/tags/Mesopotamian%20RPF/works
-
+[Mark Dominus]: https://blog.plover.com/book/best-fanfic-this-month.html
