@@ -15,12 +15,13 @@ Matt Strassler [explains].
 
 [explains]: https://profmattstrassler.com/2019/04/09/a-non-experts-guide-to-a-black-holes-silhouette/
 
-[This] is one of the most perverse uses of a computer I have ever seen.
-The insane mind behind it, [Tom 7], has also produced a number of other
-mind-melting projects, including a [C compiler which produces executables
-consisting only of ASCII printable bytes][compiler].
+[This] ([non-video link]) is one of the most perverse uses of a computer
+I have ever seen.  The insane mind behind it, [Tom 7], has also produced
+a number of other mind-melting projects, including a [C compiler which
+produces executables consisting only of ASCII printable bytes][compiler].
 
 [This]: https://www.youtube.com/watch?v=5TFDG-y-EHs
+[non-video link]: http://radar.spacebar.org/f/a/weblog/comment/1/1168
 [Tom 7]: http://tom7.org/
 [compiler]: http://tom7.org/abc/
 
