@@ -1,5 +1,6 @@
 ---
 title: Links for May 2019
+published: 2019-05-01
 ---
 
 The New Yorker reports on the fascinating [discovery] of a site which
@@ -38,12 +39,23 @@ but this seems like a reasonable approximation.
 
 [recounts]: https://slatestarcodex.com/2019/04/22/1960-the-year-the-singularity-was-cancelled/
 
-Readers may have heard of the 3750-year-old Babylonian [tablet] complaining of
-a copper merchant's inferior quality ingots and rude treatment of his
-messenger.  What is less well-known is that (perhaps inevitably) this has led to
-a certain amount of [slash fiction] being written about Ea-nasir and Nanni.  AO3 
-has no fewer than [6 other stories] inspired by this tablet.
+[Lashon Hara] is the proscribed Jewish concept of 'Evil Tongue' (link
+via [David MacIver]).  Especially in the context of modern social media,
+mindfulness about what one is saying and, more importantly, what purpose
+saying it serves is vital, especially since we haven't really internalised
+the dynamics of a massive public discourse arena.
+
+[Lashon Hara]: https://twitter.com/DataPup_/status/1121104622641451009
+[David MacIver]: https://notebook.drmaciver.com/posts/2019-04-26-07:48.html
+
+Readers may have heard of the 3750-year-old Babylonian [tablet]
+complaining of a copper merchant's inferior quality ingots and rude
+treatment of his messenger.  What is less well-known is that (perhaps
+inevitably) this has led to a certain amount of [slash fiction] (NSFW
+text) being written about Ea-nasir and Nanni.  AO3 has no fewer than
+[6 other stories] inspired by this tablet.
 
 [tablet]: https://en.wikipedia.org/wiki/Complaint_tablet_to_Ea-nasir
 [slash fiction]: https://archiveofourown.org/works/9008380?view_adult=true
 [6 other stories]: https://archiveofourown.org/tags/Mesopotamian%20RPF/works
+
