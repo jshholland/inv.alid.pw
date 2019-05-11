@@ -34,8 +34,8 @@ This is something that a lot of philosophies over the ages have suggested:
 the [Stoics] of ancient Greece would see a lot in common, and Niebuhr's
 famous Serenity Prayer also gestures in the same direction:
 
-> God, grant me the serenity to accept the things I cannot change,
-> Courage to change the things I can,
+> God, grant me the serenity to accept the things I cannot change, <br>
+> Courage to change the things I can, <br>
 > And wisdom to know the difference. 
 
 But this is a framing I've never heard from anywhere else, and it's one

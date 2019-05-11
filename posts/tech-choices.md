@@ -1,29 +1,24 @@
 ---
-title: Tech choices and the reasons behind them
+title: It's all about ethics in chat networks
 ---
 
-Recently, I realised that I've been using IRC for something very close
-to ten years.  In that time period, the number of ways to do instant
-messaging has grown quite rapidly: Slack, Discord, Telegram, WhatsApp,
-Messenger, Signal, Matrix.org, and more have all come into existence
-since then and reached some level of use, and Jabber/XMPP is still
-around too.  Some of these are proprietary and under the control of a
-single company; others are open source and federated.  There's also
-[IRCv3], which I'm not even sure where it fits into all this.
+Recently, I realised that I've been using IRC for over ten years.  In
+that time period, the number of ways to do instant messaging has grown
+quite rapidly: Slack, Discord, Telegram, WhatsApp, Messenger, Signal,
+Matrix.org, and more have all come into existence since then and
+reached some level of use, and Jabber/XMPP is still around too.  Some
+of these are proprietary and under the control of a single company;
+others are open source and federated.  There's also [IRCv3], which I'm
+not even sure where it fits into all this.
 
-This is par for the course in today's world of software.  Perhaps the
-network effects of communication and social networks have some impact,
-but almost every possible choice one can make about what to use to
-accomplish something on the internet is similar to the one we make
-when we decide how to have an online conversation.  It's not just at
-the level of user either: a sysadmin has to choose between hosting
-providers, a developer between programming frameworks, database
-engines, and version control systems, and managers have to pick their
-favourite set of buzzwords.
-
-Often we end up using certain things purely out of familiarity and
-habit, or for the opposite reason of novelty and curiosity, without
-particularly thinking about whether they are the right tool for the
-job or not.
+I have accounts on and regularly use all of the mentioned messaging
+systems, and I still use regular old SMS messaging quite frequently as
+well.  IRC is certainly feeling its age: the hassle of running a
+bouncer or command line client in a screen session somewhere is a high
+bar to set to be some approximation of always online, and it doesn't
+support some of the features of reaction emoji, threading or embedded
+images nearly as well as its more modern competitors such as Slack and
+Discord.  But I really can't see it dying any time soon.  Most IRCers
+at this point have been around for a long time.
 
 [IRCv3]: https://ircv3.net/
