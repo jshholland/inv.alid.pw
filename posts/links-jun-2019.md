@@ -12,6 +12,12 @@ title: Links for June 2019
 [Yet another fun Turing-completeness proof](https://arxiv.org/pdf/1904.09828.pdf);
 the undecidability is of course via a reduction to the Halting Problem.
 
+Since apparently these links posts are just "Things that shouldn't be TC
+but are", another Turing-complete game is [Baba is You] (which I haven't
+played yet, but all reviews indicate that it is very good).
+
+[Baba is You]: https://www.twitlonger.com/show/n_1sqrh1m
+
 Things [aren't as bad] as you think.
 
 [aren't as bad]: https://www.businessfast.co.uk/why-life-in-the-uk-feels-better-than-ever/
@@ -19,3 +25,8 @@ Things [aren't as bad] as you think.
 An Essex man has set the record for [land speed record in a tuk-tuk].
 
 [land speed record in a tuk-tuk]: https://www.theguardian.com/world/2019/may/13/essex-businessman-sets-first-tuk-tuk-land-speed-record
+
+The [Voynich manuscript] has (once again) allegedly been [deciphered].
+
+[Voynich manuscript]: https://en.wikipedia.org/wiki/Voynich_manuscript
+[deciphered]: https://www.tandfonline.com/doi/full/10.1080/02639904.2019.1599566
