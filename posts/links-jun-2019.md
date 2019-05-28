@@ -41,3 +41,9 @@ although it seems likely that this is incorrect.  [Ars Technica] and
 damages totaling $95B'.  It was auctioned off for $1.345M.
 
 [The Persistence of Chaos]: https://thepersistenceofchaos.com/
+
+This [YouTube channel] uploads [videos] of dogs being groomed and it is 
+the most relaxing thing I have found in the last few years.
+
+[YouTube channel]: https://www.youtube.com/channel/UCij19II32Olbu8_vghmYNCA
+[videos]: https://www.youtube.com/watch?v=yaTCzCQFFiY
