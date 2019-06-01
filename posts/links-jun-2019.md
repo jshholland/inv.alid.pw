@@ -1,5 +1,6 @@
 ---
 title: Links for June 2019
+published: 2019-06-01
 ---
 
 > Theorem 1: Determining the outcome of a game of Magic: The Gathering
@@ -28,8 +29,8 @@ in a tuk-tuk].
 [land speed record in a tuk-tuk]: https://www.theguardian.com/world/2019/may/13/essex-businessman-sets-first-tuk-tuk-land-speed-record
 
 The [Voynich manuscript] has (once again) allegedly been [deciphered],
-although it seems likely that this is incorrect.  [Ars Technica] and
-[Language Log] analyse this most recent attempt.
+although it seems unlikely to be correct.  [Ars Technica] and [Language
+Log] analyse this most recent attempt.
 
 [Voynich manuscript]: https://en.wikipedia.org/wiki/Voynich_manuscript
 [deciphered]: https://www.tandfonline.com/doi/full/10.1080/02639904.2019.1599566
