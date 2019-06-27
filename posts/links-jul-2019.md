@@ -12,3 +12,7 @@ https://en.wikipedia.org/wiki/Paul_Le_Roux
 
 https://lockwood.dev/advertising/2019/06/07/adtech-sucks.html
 https://lockwood.dev/advertising/2019/06/14/adtech-sucks-this-time-its-personal-ids.html
+
+https://idlewords.com/2015/11/the_advertising_bubble.htm
+
+https://en.wikipedia.org/wiki/Railroad_chapel_car
