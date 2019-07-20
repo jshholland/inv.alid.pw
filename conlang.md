@@ -1,6 +1,6 @@
-# The first one
+# quth
 
-This thing is mostly for me to explore some ideas: hanging
+«quth» /qʊθ/ is a language for me to explore some ideas: hanging
 grammar/meaning on long/short vowels/fricatives, as well as possibly
 initial consonant mutations (guess who's been learning Welsh
 recently).  I'm also interested in coming up with a script for it that
@@ -16,8 +16,8 @@ Babylonians).  So if you want to complain about k/q then suck it up.
 space to come up with vocabulary given the restrictive phonotactics if
 I cut a place of articulation.)
 
-«Guillemets» indicate fragments of the language and [square brackets]
-are a vague IPA transcription.
+«Guillemets» indicate fragments in quth and [square brackets] are a
+vague IPA transcription.
 
 ## Phonology
 
