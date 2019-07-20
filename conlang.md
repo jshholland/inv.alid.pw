@@ -16,8 +16,8 @@ Babylonians).  So if you want to complain about k/q then suck it up.
 space to come up with vocabulary given the restrictive phonotactics if
 I cut a place of articulation.)
 
-«Guillemets» indicate fragments in quth and [square brackets] are a
-vague IPA transcription.
+«Guillemets» indicate fragments of quth and /slashes/ are a vague IPA
+transcription.
 
 ## Phonology
 
@@ -30,26 +30,26 @@ a fricative.
 These have a voiceless and voiced series, depending on grammatical
 context:
 
-|           |     |     |      |        |      |          |
-|-----------+-----+-----+------+--------+------+----------|
-| voiceless | «p» | «t» | «ch» | «k»    | «q»  | «h»      |
-|           | [p] | [t] | [tʃ] | [k~c]  | [q]  | [h], [ʔ] |
-| voiced    | «b» | «d» | «j»  | «g»    | «qh» | «y»      |
-|           | [b] | [d] | [dʒ] | [g~~ɟ] | [ɢ]  | [j]      |
+|           |     |     |      |       |      |          |
+|-----------|-----|-----|------|-------|------|----------|
+| voiceless | «p» | «t» | «ch» | «k»   | «q»  | «h»      |
+|           | /p/ | /t/ | /tʃ/ | /k~c/ | /q/  | /h/, /ʔ/ |
+| voiced    | «b» | «d» | «j»  | «g»   | «qh» | «y»      |
+|           | /b/ | /d/ | /dʒ/ | /g~ɟ/ | /ɢ/  | /j/      |
 
 «k» and «g» are more palatal than their English equivalents, so that
 they are more distinct from «q» and «qh».  «h» is realised as a
-glottal stop word-initially but [h] medially; its voiced version is
-exceptionally «y» [j].
+glottal stop word-initially but /h/ medially; its voiced version is
+exceptionally «y» /j/.
 
 ### Vowels
 
 |       |      |      |      |      |      |      |
 |-------+------+------+------+------+------+------|
 | short | «a»  | «e»  | «i»  | «o»  | «u»  | «y»  |
-|       | [æ]  | [ɛ]  | [ɪ]  | [ɒ]  | [ʊ]  | [ə]  |
+|       | /æ/  | /ɛ/  | /ɪ/  | /ɒ/  | /ʊ/  | /ə/  |
 | long  | «aa» | «ee» | «ii» | «oo» | «uu» | «yy» |
-|       | [a:] | [ɛː] | [i:] | [ɔ:] | [u:] | [ɜ:] |
+|       | /a:/ | /ɛː/ | /i:/ | /ɔ:/ | /u:/ | /ɜ:/ |
 
 (yeah these are probably very BrE-centric but idc)
 
@@ -63,7 +63,7 @@ up with the native orthography.
 |     |     |      |     |      |     |      |     |     |     |     |      |
 |-----+-----+------+-----+------+-----+------+-----+-----+-----+-----+------|
 | «m» | «n» | «ng» | «s» | «sh» | «f» | «th» | «x» | «l» | «r» | «w» | «z»  |
-| [m] | [n] | [ŋ]  | [s] | [ʃ]  | [f] | [θ]  | [χ] | [l] | [r] | [w] | [ts] |
+| /m/ | /n/ | /ŋ/  | /s/ | /ʃ/  | /f/ | /θ/  | /χ/ | /l/ | /r/ | /w/ | /ts/ |
 
 Vowel and final consonant length is phonemic.  Some consonants are
 digraphs; only double the first consonant to indicate gemination (eg
@@ -71,6 +71,10 @@ digraphs; only double the first consonant to indicate gemination (eg
 and become voiced.
 
 It is entirely coincidental that "Josh" is a valid syllable.
+
+### Stress
+
+Always on the first syllable.
 
 ### Loanwords
 
@@ -86,53 +90,67 @@ For now the Romanised version is canonical; one day I want to assemble
 a native script.  It'll probably be some sort of abugida, although
 incorporating forms for final consonants as well as vowels.
 
-## Grammar
+## Morphology/syntax
 
-VSO, strongly head-initial, pro-drop.  Unmarked content words are
-verbs.
+VSO, strongly head-initial, pro-drop.  The dictionary form of a word
+is a verb and is unvoiced with short vowels and consonants; this is
+considered "unmarked" and the "default" use.  The dictionary
+definition of a root will give its meaning as a verb and as the
+meaning of the derived noun for clarity, although hopefully I can come
+up with a regular system so that these can be guessed as often as
+possible.
 
 ### Nouns
 
 Nouns are derived from verbs by suffixing as follows:
 
-| Determiner             | Suffixes |
-|------------------------+----------|
-| indefinite             | «-a»     |
-| definite               | «-e»     |
-| demonstrative proximal | «-i»     |
-| demonstrative distal   | «-o»     |
+| Suffix | Meaning                | Gloss (sg)            |
+|--------+------------------------+-----------------------|
+| «-a»   | indefinite             | a pen                 |
+| «-e»   | definite               | the pen               |
+| «-i»   | demonstrative proximal | this pen (near me)    |
+| «-o»   | demonstrative medial   | that pen (near you)   |
+| «-u»   | demonstrative distal   | that pen (over there) |
+| «-y»   | interrogative          | which pen?            |
 
-To pluralise, simply lengthen the suffix vowel.  The dictionary
-definition of a root will give its meaning both as a verb and as a
-noun for clarity, although hopefully I can come up with a regular
-system so that these can be guessed as often as possible.
+To pluralise, simply lengthen the suffix vowel.
+
+#### Cases
+
+| voicing   | vowel length | final consonant | case       |
+|-----------+--------------+-----------------+------------|
+| voiceless | short        | short           | nominative |
+| voiced    | short        | short           | accusative |
+| voiceless | long         | short           | dative     |
+| voiced    | long         | short           | genitive   |
+
+Four cases work for German, so they'll work for me (need to test
+whether it works for me).
 
 ### Verbs
 
+Verbs do not conjugate for person or number, only tense, aspect and
+mood.
+
 #### Tense/aspect
 
-Optionally specified; if desired, by more affixing. Provisionally
-(stealing wholesale from Esperanto):
-
-| Tense   | Affix |
-|---------+-------|
-| Past    | «-i-» |
-| Present | «-a-» |
-| Future  | «-o-» |
-
-Verbs must end in a consonant, so if a tense is specified, an aspect
-must grammatically be present, thought it may be the default
-elliptical one.
-
-| Aspect       | Suffix |
-|--------------+--------|
-| Elliptical   | «-w»   |
-| Perfective   | «-m»   |
-| Imperfective | «-s»   |
+Optionally specified; if desired, by changes to vowel length, voicing
+and final consonant length.
 
 #### Moods
 
-Just realis/irrealis: imperative is by periphrasis (eg. «want give»).
+Just realis/irrealis: imperative and other constructions are by
+periphrasis (e.g. "want [that you] do").
+
+### Adjectives
+
+### Adverbs
+
+### Relative clauses
+
+### Conjunctions
+
+### Prepositions
 
 ## Counting
 
