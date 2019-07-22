@@ -33,7 +33,7 @@ context:
 |           |     |     |      |       |      |          |
 |-----------|-----|-----|------|-------|------|----------|
 | voiceless | «p» | «t» | «ch» | «k»   | «q»  | «h»      |
-|           | /p/ | /t/ | /tʃ/ | /k~c/ | /q/  | /h/, /ʔ/ |
+|           | /p/ | /t/ | /tʃ/ | /k~c/ | /q/  | /ʔ/, /h/ |
 | voiced    | «b» | «d» | «j»  | «g»   | «qh» | «y»      |
 |           | /b/ | /d/ | /dʒ/ | /g~ɟ/ | /ɢ/  | /j/      |
 
@@ -44,12 +44,14 @@ exceptionally «y» /j/.
 
 ### Vowels
 
-|       |      |      |      |      |      |      |
-|-------+------+------+------+------+------+------|
-| short | «a»  | «e»  | «i»  | «o»  | «u»  | «y»  |
-|       | /æ/  | /ɛ/  | /ɪ/  | /ɒ/  | /ʊ/  | /ə/  |
-| long  | «aa» | «ee» | «ii» | «oo» | «uu» | «yy» |
-|       | /a:/ | /ɛː/ | /i:/ | /ɔ:/ | /u:/ | /ɜ:/ |
+|       |        |      |       |      |      |      |
+|-------+--------+------+-------+------+------+------|
+| short | «a»    | «e»  | «i»   | «o»  | «u»  | «y»  |
+|       | /æ/    | /ɛ/  | /ɪ/   | /ɒ/  | /ʊ/  | /ə/  |
+|       | cat    | pen  | tin   | hot  | foot | cut  |
+| long  | «aa»   | «ee» | «ii»  | «oo» | «uu» | «yy» |
+|       | /a:/   | /ɛː/ | /i:/  | /ɔ:/ | /u:/ | /ɜ:/ |
+|       | father | air  | clean | born | cool | bird |
 
 (yeah these are probably very BrE-centric but idc)
 
@@ -66,9 +68,9 @@ up with the native orthography.
 | /m/ | /n/ | /ŋ/  | /s/ | /ʃ/  | /f/ | /θ/  | /χ/ | /l/ | /r/ | /w/ | /ts/ |
 
 Vowel and final consonant length is phonemic.  Some consonants are
-digraphs; only double the first consonant to indicate gemination (eg
-«ssh»).  Voiceless final consonants before a voiced syllable assimilate
-and become voiced.
+digraphs (in the Romanised form); only double the first consonant to
+indicate gemination (eg «ssh»).  Voiceless final consonants before a
+voiced syllable may assimilate and become voiced.
 
 It is entirely coincidental that "Josh" is a valid syllable.
 
@@ -79,7 +81,9 @@ Always on the first syllable.
 ### Loanwords
 
 Names are not subject to the phonotactic rules — just approximate as
-best possible with the sounds.
+best possible with the sounds.  Like in Toki Pona, they are
+syntactically adjectives: «kime Sathamptyn» Southampton, «pone Stiif»
+Steve.
 
 I'll try to come up with some systematic way to import words from other
 languages, since the native phonotactics are pretty strict.
@@ -104,45 +108,54 @@ possible.
 
 Nouns are derived from verbs by suffixing as follows:
 
-| Suffix | Meaning                | Gloss (sg)            |
-|--------+------------------------+-----------------------|
-| «-a»   | indefinite             | a pen                 |
-| «-e»   | definite               | the pen               |
-| «-i»   | demonstrative proximal | this pen (near me)    |
-| «-o»   | demonstrative medial   | that pen (near you)   |
-| «-u»   | demonstrative distal   | that pen (over there) |
-| «-y»   | interrogative          | which pen?            |
+| Suffix | Meaning                | Example | Gloss                 |
+|--------+------------------------+---------+-----------------------|
+| «-a»   | indefinite             | «hafa»  | a dog                 |
+| «-e»   | definite               | «hafe»  | the dog               |
+| «-i»   | demonstrative proximal | «hafi»  | this dog (near me)    |
+| «-o»   | demonstrative medial   | «hafo»  | that dog (near you)   |
+| «-u»   | demonstrative distal   | «hafu»  | that dog (over there) |
+| «-y»   | interrogative          | «hafy»  | which dog?            |
 
 To pluralise, simply lengthen the suffix vowel.
 
 #### Cases
 
-| voicing   | vowel length | final consonant | case       |
-|-----------+--------------+-----------------+------------|
-| voiceless | short        | short           | nominative |
-| voiced    | short        | short           | accusative |
-| voiceless | long         | short           | dative     |
-| voiced    | long         | short           | genitive   |
+Three cases:
 
-Four cases work for German, so they'll work for me (need to test
-whether it works for me).
+| Case       | Indication   | Example |
+|------------+--------------+---------|
+| nominative | none         | «hafa»  |
+| accusative | voiced stops | «yafa»  |
+| genitive   | long vowel   | «haafa» |
+| dative     | long final   | «haffa» |
 
 ### Verbs
 
 Verbs do not conjugate for person or number, only tense, aspect and
-mood.
+mood.  There are two tenses (past, non-past), two aspects
+(perfective and imperfective) and two moods (realis and irrealis).
+Imperative and other constructions are by periphrasis (e.g. "want
+[that you] do").
 
-#### Tense/aspect
+| Tense    | Indication   | Example | Meaning             |
+|----------+--------------+---------+---------------------|
+| non-past | none         | «tal»   | I sleep, will sleep |
+| past     | voiced stops | «dal»   | I slept             |
 
-Optionally specified; if desired, by changes to vowel length, voicing
-and final consonant length.
+| Aspect       | Indication | Example | Meaning       |
+|--------------+------------+---------+---------------|
+| perfective   | none       | «tal»   | I sleep       |
+| imperfective | long vowel | «taal»  | I am sleeping |
 
-#### Moods
-
-Just realis/irrealis: imperative and other constructions are by
-periphrasis (e.g. "want [that you] do").
+| Mood     | Indication | Example | Meaning                    |
+|----------+------------+---------+----------------------------|
+| realis   | none       | «tal»   | I sleep                    |
+| irrealis | long final | «tall»  | I would sleep, might sleep |
 
 ### Adjectives
+
+#### Comparison
 
 ### Adverbs
 
@@ -176,3 +189,36 @@ Numbered (0-based?)
 ### Days of week
 
 Planets? Numbered? Dozenal-ify these too?
+
+## Examples
+
+«tal hafe biza.»
+~ The dog eats a pizza.
+
+«chaas pony?»
+~ Which person is sleeping?
+~ Who is asleep?
+
+## Vocabulary
+
+quth
+~ (noun) the language
+
+piz
+~ (noun) pizza
+
+haf
+~ (noun) dog
+
+tal
+~ (noun) food
+~ (verb) to eat
+
+pon
+~ (noun) person
+
+chas
+~ (verb) to sleep
+
+kim
+~ (noun) town, city
