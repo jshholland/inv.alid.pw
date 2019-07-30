@@ -11,3 +11,7 @@ https://latacora.micro.blog/2019/07/16/the-pgp-problem.html
 https://www.theguardian.com/lifeandstyle/2019/jul/19/experience-my-dog-is-a-champion-surfer
 
 https://golem.ph.utexas.edu/category/2012/01/vorsicht_funktor.html
+
+https://en.wikipedia.org/wiki/General_Butt_Naked
+
+https://en.wikipedia.org/wiki/Berners_Street_hoax
