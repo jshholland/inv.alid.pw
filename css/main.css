@@ -179,3 +179,11 @@ blockquote {
 #commento {
 	margin-top: 2rem;
 }
+
+.quth::before {
+	content: "«";
+}
+
+.quth::after {
+	content: "»";
+}
