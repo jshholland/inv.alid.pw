@@ -13,3 +13,5 @@ Indonesia.
 
 [Princess Andromeda]: https://blog.plover.com/book/myth/princess-andromeda.html
 [points out]: https://en.wikipedia.org/wiki/Andromeda_(mythology)#Ethnicities_of_Andromeda
+
+https://github.com/boyEstrogen/Anime-Girls-Holding-Programming-Books/
