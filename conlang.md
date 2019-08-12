@@ -154,22 +154,28 @@ mood.  There are two tenses (past, non-past), two aspects
 Imperative and other constructions are by periphrasis (e.g. "want
 [that you] do").
 
-| Tense    | Indication   | Example      | Meaning             |
-|----------+--------------+--------------+---------------------|
-| non-past | none         | [tal]{.quth} | I sleep, will sleep |
-| past     | voiced stops | [dal]{.quth} | I slept             |
+| Tense    | Indication   | Example         | Meaning             |
+|----------+--------------+-----------------+---------------------|
+| non-past | none         | [tal hi]{.quth} | I sleep, will sleep |
+| past     | voiced stops | [dal hi]{.quth} | I slept             |
 
-| Aspect       | Indication | Example       | Meaning       |
-|--------------+------------+---------------+---------------|
-| perfective   | none       | [tal]{.quth}  | I sleep       |
-| imperfective | long vowel | [taal]{.quth} | I am sleeping |
+| Aspect       | Indication | Example          | Meaning       |
+|--------------+------------+------------------+---------------|
+| perfective   | none       | [tal hi]{.quth}  | I sleep       |
+| imperfective | long vowel | [taal hi]{.quth} | I am sleeping |
 
-| Mood     | Indication | Example       | Meaning                    |
-|----------+------------+---------------+----------------------------|
-| realis   | none       | [tal]{.quth}  | I sleep                    |
-| irrealis | long final | [tall]{.quth} | I would sleep, might sleep |
+| Mood     | Indication | Example          | Meaning                    |
+|----------+------------+------------------+----------------------------|
+| realis   | none       | [tal hi]{.quth}  | I sleep                    |
+| irrealis | long final | [tall hi]{.quth} | I would sleep, might sleep |
 
-### Adjectives
+#### Negation
+
+#### Questions
+
+For wh-questions, use the [-y]{.quth} ending.
+
+#### Adjectives
 
 #### Comparison
 
@@ -238,3 +244,28 @@ chas
 
 kim
 ~ (noun) town, city
+
+tan
+~ (noun) thing
+
+has
+~ (noun) water
+
+kish
+~ (noun) fish
+
+qong
+~ (verb) die
+
+chix
+~ (noun) head
+
+pin
+~ (noun) bird
+
+tosh
+~ (noun) fire
+~ (verb) to burn
+
+hang
+~ (verb) to love
