@@ -86,7 +86,10 @@ syntactically adjectives, modifying a definite noun: [kime Sathamptyn]{.quth}
 
 For now the Romanised version is canonical; one day I want to assemble
 a native script.  It'll probably be some sort of abugida, although
-incorporating forms for final consonants as well as vowels.
+	incorporating forms for final consonants as well as vowels.
+
+In the Romanised form, full stops end sentences and everything is
+lower-case.
 
 ## Morphology/syntax
 
@@ -100,9 +103,9 @@ meaning "There is an x" or "[Subject] is an/the x".
 
 ### Nouns
 
-Nouns are derived from verbs by suffixing as follows:
+Nouns are derived from roots by suffixing as follows:
 
-| Suffix      | Meaning                | Example       | Gloss                 |
+| Suffix      | Meaning                | Example       | Meaning               |
 |-------------+------------------------+---------------+-----------------------|
 | [-a]{.quth} | indefinite             | [hafa]{.quth} | a dog                 |
 | [-e]{.quth} | definite               | [hafe]{.quth} | the dog               |
@@ -113,30 +116,42 @@ Nouns are derived from verbs by suffixing as follows:
 
 To pluralise, simply lengthen the suffix vowel.
 
+«hafe»
+~ the dog
+
+«hafee»
+~ the dogs
+
 #### Cases
 
 There are four cases:
 
-| Case       | Indication   | Example        |
-|------------+--------------+----------------|
-| nominative | none         | [hafa]{.quth}  |
-| accusative | voiced stops | [yafa]{.quth}  |
-| genitive   | long vowel   | [haafa]{.quth} |
-| dative     | long final   | [haffa]{.quth} |
+| Case       | Indication | Example        |
+|------------+------------+----------------|
+| nominative | none       | [hafa]{.quth}  |
+| accusative | long final | [hava]{.quth}  |
 
 The accusative is only used when dropping the subject, so:
 
 [tal hafe piza.]{.quth}
 ~ The dog eats a pizza.
 
-[tal biza.]{.quth}
+[tal bizza.]{.quth}
 ~ [Unspecified] eats a pizza.
 
 [tal hafe.]{.quth}
 ~ The dog eats (something).
 
-[tal yafe.]{.quth}
+[tal haffe.]{.quth}
 ~ [Unspecified] eats the dog.
+
+For ownership, use the «ho» particle with a noun or pronoun.
+
+«hafe ho hi»
+~ my dog
+
+«hafa ho hii»
+~ one of our dogs
 
 #### Pronouns
 
@@ -144,7 +159,6 @@ The accusative is only used when dropping the subject, so:
 |----------+--------------+--------------+--------------|
 | Singular | [hi]{.quth}  | [to]{.quth}  | [ku]{.quth}  |
 | Plural   | [hii]{.quth} | [too]{.quth} | [kuu]{.quth} |
-
 
 ### Verbs
 
@@ -177,20 +191,68 @@ For wh-questions, use the [-y]{.quth} ending.
 
 #### Adjectives
 
+Adjectives are normal content words.  As a verb, they behave as a
+predicate, and as nouns, "the x one".  To modify a noun, use the
+particle «ho» with the bare root.
+
+«hafe ho qoth»
+~ the black dog
+
 #### Comparison
+
+### Subordinate clauses
+
+Several particles introduce subordinate clauses.  These act as normal
+sentences, but the first noun outside the clause has its intial
+consonant voiced. (todo: make sure this isn't going to end up being
+ambiguous. SPOILER: IT ALREADY IS)
+
+«tal pone piza.»
+~ The person eats a pizza.
+
+«tal pone qu jas biza.»
+~ The person who slept eats a pizza.
 
 ### Adverbs
 
+Adverbs do not exist as a separate class of words.  Rather, they are
+introduced by the particle «pi» and then a subordinate phrase.  «pi»
+could be translated as "in the way/style of", but it is very flexible
+and often should be translated more loosely.
+
+«tal ko piza pi haf.»
+~ You eat pizza like a dog.
+
 ### Relative clauses
+
+Introduced by the particle «qu».
 
 ### Conjunctions
 
 ### Prepositions
 
+Via «pi».
+
 ## Counting
 
 Duodecimal because I'm feeling perverse (and it fits nicely into
 time).
+
+|    |   |
+|----+---|
+|  0 |   |
+|  1 |   |
+|  2 |   |
+|  3 |   |
+|  4 |   |
+|  5 |   |
+|  6 |   |
+|  7 |   |
+|  8 |   |
+|  9 |   |
+| 10 |   |
+| 11 |   |
+| 12 |   |
 
 ### Time
 
@@ -204,9 +266,11 @@ time).
 Hours are subdivided into 5 blocks of 12 minutes (or halves if more
 convenient but fifths are more common).
 
+Tagging a sentence with time is done with «pi».
+
 ### Months
 
-Numbered (0-based?)
+"The n-th moon".
 
 ### Days of week
 
@@ -224,7 +288,7 @@ Planets? Numbered? Duodecimal-ify these too?
 ## Vocabulary
 
 quth
-~ (noun) the language
+~ (noun) the name of the language
 
 piz
 ~ (noun) pizza
@@ -269,3 +333,27 @@ tosh
 
 hang
 ~ (verb) to love
+
+pal
+~ (noun) window
+
+qosh
+~ (adjective) black
+
+ho
+~ (particle) link noun or adjective to noun
+
+pi
+~ (particle) introduce adverbial phrase
+
+chif
+~ (noun) sheep/goat
+
+kuw
+~ (noun) cow
+
+tol
+~ (noun) horse
+
+qith
+~ (noun) tree
