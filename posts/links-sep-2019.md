@@ -1,5 +1,6 @@
 ---
 title: Links for September 2019
+published: 2019-09-03
 ---
 
 Mark Dominus points out that the Classical [Princess Andromeda],
@@ -14,4 +15,5 @@ Indonesia.
 [Princess Andromeda]: https://blog.plover.com/book/myth/princess-andromeda.html
 [points out]: https://en.wikipedia.org/wiki/Andromeda_(mythology)#Ethnicities_of_Andromeda
 
-https://github.com/boyEstrogen/Anime-Girls-Holding-Programming-Books/
+Without further comment: [Anime Girls Holding Programming
+Books](https://github.com/boyEstrogen/Anime-Girls-Holding-Programming-Books/).
